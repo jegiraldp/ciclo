@@ -1,0 +1,117 @@
+#todo{
+font-family:Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text", Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
+
+width: 100%;
+}
+
+#divMenu a.opcion {
+  cursor:pointer;
+	font-size:19px;
+	color: black;
+	background:#00A5D9;
+	display: inline;
+	padding: 3px 30px;
+	text-align: center;
+  border: 1px solid #ACCFE8;
+  border-width: 1px 1px 1px 1px;
+	margin-top: 1px;
+	display: inline-block;
+}
+
+#divMenu a.opcion:hover{
+background: #337ab7;
+color:#F1FFF7
+}
+
+#intro{
+background: #def4ea;
+
+}
+
+#divContenido a.opcionInterna:hover{
+background: #DBEBF6;
+font-weight:bold
+text-decoration:underline;
+cursor:pointer;
+color: blue;
+}
+
+#divContenido a.opcionInterna{
+text-decoration:underline;
+}
+
+#dos li a.opcionInterna{
+color:black;
+}
+
+
+
+#divContenido{
+padding:8px;
+margin-top: 10px;
+margin-bottom: 0px;
+height: auto;
+font-size:17px;
+
+}
+#divPie{
+padding:5px;
+margin-top: 1px;
+margin-bottom: 1px;
+text-align:center;
+border: 1px solid #ACCFE8;
+border-width: 1px 1px 1px 1px;
+background:#00A5D9;
+font-size:14px;
+}
+
+#divTitulo{
+font-size:24px;
+font-weight:bold;
+text-align:center;
+vertical-align:middle;
+padding:10px;
+background:#00A5D9;
+}
+
+hr#hrFun {
+   border-top: 1px solid #008FBC;
+}
+
+hr {
+   border: 0px solid #008FBC;
+}
+
+table {
+  border-collapse: collapse;
+	border-color:  #DBEBF6;
+	font-size:18px;
+}
+
+td {
+    padding: 15px;
+	}
+
+#uml tr th{
+		background-color:  #DBEBF6;
+
+	}
+
+
+ul{
+	list-style-image: url(../img/vineta.png);
+}
+
+#dos{
+	list-style-image: url(../img/vineta2.png);
+}
+
+#tablarecursos{
+  font-size:17px;
+  border-collapse: collapse;
+    width: 90%;
+}
+figcaption{
+  font-style: italic;
+  font-size:14px;
+}
